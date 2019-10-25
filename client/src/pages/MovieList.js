@@ -40,6 +40,7 @@ class MovieList extends React.Component {
         <input
           type="text"
           placeholder="Title"
+          autoComplete="off"
           onChange={this.handleSearch}
           id="title"
         />
