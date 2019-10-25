@@ -1,0 +1,94 @@
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 1rem 0.5rem;
+}
+
+nav {
+  background-color: black;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a.active {
+  color: cornflowerblue;
+}
+
+.home, .movie-list, .single-movie {
+  text-align: center;
+}
+
+.movie-list input {
+  width: 300px;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+}
+
+.results a {
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+.movie {
+  display: grid;
+  place-items: center;
+}
+
+.movie h3 {
+  white-space: nowrap;
+  width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movie img {
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
+}
+
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+}
+
+table {
+  width: 700px;
+}
+
+tr:hover{
+  background-color: papayawhip;
+}
+
+.movie-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-data img {
+  object-fit: cover;
+  width: 300px;
+  height: 450px;
+}
+
+.movie-data img, .movie-data table {
+  margin: 10px;
+}
